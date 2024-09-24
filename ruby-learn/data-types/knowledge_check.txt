@@ -1,0 +1,79 @@
+QUESTIONS:
+
+01 - What are the basic arithmetic operators you can use on numbers?
+
+02 - What’s the difference between an integer and a float?
+
+03 - What method would you use to convert a float to an integer?
+
+04 - What method would you use to convert an integer to a float?
+
+05 - What is a string?
+
+06 - What are the differences between single and double quotes?
+
+07 - What is string interpolation?
+
+08 - How do you concatenate strings?
+
+09 - What method would you use to change all the characters in your string to upper case?
+
+10 - What method would you use to split up strings into arrays?
+
+11 - What are escape characters?
+
+12 - How do you access a specific character or substring?
+
+13 - How do you convert other data types into strings?
+
+14 - What is a symbol?
+
+15 - How do you create a symbol?
+
+16 - What’s the difference between a symbol and a string?
+
+17 - What does true represent?
+
+18 - What does false represent?
+
+19 - What does nil represent?
+
+ANSWERS:
+
+01 -> ** * % / + -
+
+02 -> An integer do not have decimals while float has
+
+03 -> .to_i
+
+04 -> .to_f
+
+05 -> A string is a sequence of characters
+
+06 -> With double quotes you can use other features like string interpolation
+
+07 -> String interpolation is the act of put variables into our string
+
+08 -> You can use the concat operators "<<", "+" or the .concat method
+
+09 -> .upcase
+
+10 -> .split
+
+11 -> Escape characters are characters provided with a "\" before them representing the character itself or an especial character like "\s" that represents a white space
+
+12 -> You can access it by the index of the character or methods that perform it
+
+13 -> .to_s method
+
+14 -> A symbol is an "immutable" string, it only has one allocated memory space for each symbol
+
+15 -> :symbol
+
+16 -> A string can allocate multiple spaces in memory for same string content while symbol only allocate one memory space for his content
+
+17 -> True is a boolean data type that represents something is true, often translated to 1
+
+18 -> False is a boolean data type that represents something is false, often translated to 0
+
+19 -> Nil is a special ruby way to represent that something is "undefined", since that everything in Ruby returns something, nil returns "nothing"

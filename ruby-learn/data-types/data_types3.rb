@@ -26,4 +26,4 @@ if "not true literal"
   puts "Im not nil either"
 end
 #
-puts false == nil
+puts false.nil?
